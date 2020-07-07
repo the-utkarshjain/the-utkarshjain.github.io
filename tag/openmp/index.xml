@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>openMP | Utkarsh Jain</title>
+    <link>https://the-utkarshjain.github.io/tag/openmp/</link>
+      <atom:link href="https://the-utkarshjain.github.io/tag/openmp/index.xml" rel="self" type="application/rss+xml" />
+    <description>openMP</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://the-utkarshjain.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>openMP</title>
+      <link>https://the-utkarshjain.github.io/tag/openmp/</link>
+    </image>
+    
+    <item>
+      <title>Programming Parallel Computers</title>
+      <link>https://the-utkarshjain.github.io/project/parallel-computing/ppc/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://the-utkarshjain.github.io/project/parallel-computing/ppc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

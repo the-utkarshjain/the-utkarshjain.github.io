@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Utkarsh Jain</title>
+    <link>https://the-utkarshjain.github.io/project/</link>
+      <atom:link href="https://the-utkarshjain.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://the-utkarshjain.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>https://the-utkarshjain.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Artificial Intelligence and Decision-Making</title>
+      <link>https://the-utkarshjain.github.io/project/artificial-intelligence/artificial-intelligence-and-decision-making/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://the-utkarshjain.github.io/project/artificial-intelligence/artificial-intelligence-and-decision-making/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concurrent Programming and Frameworks</title>
+      <link>https://the-utkarshjain.github.io/project/parallel-computing/concurrent-programming-and-frameworks/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://the-utkarshjain.github.io/project/parallel-computing/concurrent-programming-and-frameworks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>https://the-utkarshjain.github.io/project/development/node.js/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://the-utkarshjain.github.io/project/development/node.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming Parallel Computers</title>
+      <link>https://the-utkarshjain.github.io/project/parallel-computing/ppc/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://the-utkarshjain.github.io/project/parallel-computing/ppc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Content Management System</title>
+      <link>https://the-utkarshjain.github.io/project/development/cms/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://the-utkarshjain.github.io/project/development/cms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graphical Query Builder for AiiDA Framework</title>
+      <link>https://the-utkarshjain.github.io/project/development/aiida/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://the-utkarshjain.github.io/project/development/aiida/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
