@@ -3,8 +3,68 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://the-utkarshjain.github.io/tag/a/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://the-utkarshjain.github.io/tag/ai/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-utkarshjain.github.io/post/ai-2.2/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-utkarshjain.github.io/authors/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-utkarshjain.github.io/tag/gbfs/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-utkarshjain.github.io/tag/heuristic-functions/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-utkarshjain.github.io/post/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-utkarshjain.github.io/tags/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-utkarshjain.github.io/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-utkarshjain.github.io/author/utkarsh-jain/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-utkarshjain.github.io/post/ai-2.1/</loc>
+    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-utkarshjain.github.io/tag/bfs/</loc>
+    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-utkarshjain.github.io/tag/dfs/</loc>
+    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -68,16 +128,6 @@
   </url>
   
   <url>
-    <loc>https://the-utkarshjain.github.io/tags/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://the-utkarshjain.github.io/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://the-utkarshjain.github.io/project/development/cms/</loc>
     <lastmod>2019-04-27T00:00:00+00:00</lastmod>
   </url>
@@ -93,15 +143,12 @@
   </url>
   
   <url>
-    <loc>https://the-utkarshjain.github.io/authors/</loc>
+    <loc>https://the-utkarshjain.github.io/post/ai-1/</loc>
+    <lastmod>2012-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://the-utkarshjain.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://the-utkarshjain.github.io/post/</loc>
   </url>
   
   <url>
@@ -114,10 +161,6 @@
   
   <url>
     <loc>https://the-utkarshjain.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://the-utkarshjain.github.io/author/utkarsh-jain/</loc>
   </url>
   
 </urlset>

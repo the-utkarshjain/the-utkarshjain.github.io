@@ -1,0 +1,1157 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Utkarsh Jain">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Learning how to traverse a state space to search for a particular state/destination&#34;.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://the-utkarshjain.github.io/post/ai-2.1/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://the-utkarshjain.github.io/post/ai-2.1/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@iamutkarshjain">
+  <meta property="twitter:creator" content="@iamutkarshjain">
+  
+  <meta property="og:site_name" content="Utkarsh Jain">
+  <meta property="og:url" content="https://the-utkarshjain.github.io/post/ai-2.1/">
+  <meta property="og:title" content="Artificial Intelligence - Part 2.1 | Utkarsh Jain">
+  <meta property="og:description" content="Learning how to traverse a state space to search for a particular state/destination&#34;."><meta property="og:image" content="https://the-utkarshjain.github.io/post/ai-2.1/featured.jpg">
+  <meta property="twitter:image" content="https://the-utkarshjain.github.io/post/ai-2.1/featured.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-05-17T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-05-17T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://the-utkarshjain.github.io/post/ai-2.1/"
+  },
+  "headline": "Artificial Intelligence - Part 2.1",
+  
+  "image": [
+    "https://the-utkarshjain.github.io/post/ai-2.1/featured.jpg"
+  ],
+  
+  "datePublished": "2020-05-17T00:00:00Z",
+  "dateModified": "2020-05-17T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Utkarsh Jain"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Utkarsh Jain",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://the-utkarshjain.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Learning how to traverse a state space to search for a particular state/destination\"."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Artificial Intelligence - Part 2.1 | Utkarsh Jain</title>
+
+</head>
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Utkarsh Jain</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Utkarsh Jain</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Artificial Intelligence - Part 2.1</h1>
+
+  
+  <p class="page-subtitle">State-Space Search Methods</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span ><a href="/author/utkarsh-jain/">Utkarsh Jain</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 17, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    10 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header container featured-image-wrapper mt-4 mb-4" style="max-width: 1200px; max-height: 675px;">
+  <div style="position: relative">
+    <img src="/post/ai-2.1/featured_hue413f0486d5c6b1d4c39b4d0e0a66c2a_179884_1200x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <div style="text-align: justify">
+<p>This is Part 2.1 in the <strong>Introduction to A.I.</strong> blog series. Read 
+<a href="../ai-1/">Part 1</a> for basic introduction to A.I.</p>
+<h2 id="state-space-search-methods">State-Space Search Methods</h2>
+<p>In the previous blog, I tried to introduce the concept of artificial intelligence, why it is needed and the different ways to achieve it. The main topics for this blog are:</p>
+<ol>
+<li>
+<a href="#decision-search"><strong>Decision-Making as Search</strong></a></li>
+<li>
+<a href="#uninformed-search"><strong>Uninformed Search Algorithms</strong></a>
+<ol>
+<li>
+<a href="#dfs"><strong>Depth-First Search</strong></a></li>
+<li>
+<a href="#bfs"><strong>Breadth-First Search</strong></a></li>
+</ol>
+</li>
+</ol>
+<h2 id="decision-search"> 1. Decision-Making as Search </h2>
+<p>Some of the most fundamental decision-making problems in A.I. can be reduced to the problem of searching for a path in a graph. The nodes of the graph represent the state (of the world, or some system), the arcs of the graph represent (instances of) different actions, and paths in the graph represent sequences of actions. Typically we are interested in paths that start from a given <strong>initial state</strong> and end in a <strong>goal state</strong>.</p>
+<p><img src="https://user-images.githubusercontent.com/21988675/82156192-7e059480-9897-11ea-8d05-9e1a2ab22a0c.jpg" alt="image alt ><"></p>
+<p>When these graphs are small, the most basic graph algorithms, such as Dijkstra’s algorithm, can be applied. However, in all but the simplest A.I. applications, these graphs have a very large size, making the simplest and most direct ways of finding paths inapplicable. For example, even in very limited systems, like a deck of cards, the number of ways of combining the components of the system can be astronomic: a deck of 52 cards can be shuffled to 52! different orderings. A far higher number of configurations are possible in typical real-world systems. This combinatorial complexity is one of the main reasons for the difficulty of A.I. and the need to develop and deploy more complex programming technologies.</p>
+<h3 id="exploring-search-state">Exploring Search State</h3>
+<p>Solving a search problem amounts to traversing some (abstract) search space to find a solution, or to spot that no solution exists. Of course, it depends on the problem of what a solution is, but it is typical that the search starts from a certain point in the space and then attempts to approach the point being searched for. In many cases, we are also interested in the route itself and it might form an essential part of the solution such as a plan of what actions to take in the future. Many search problems emerging in A.I. systems can be formalized as state-transition models where</p>
+<ul>
+<li>The system has (or is in) a known particular state.</li>
+<li>The system is predictable: for any state and any action possible in that state, there is only one possible successor state (determinism of actions), and there are no other causes of change in the system.</li>
+<li>The objective is to reach a state that belongs to a designated set of goal states.</li>
+</ul>
+<p>The choice of actions is up to the agent(s) operating in the system. Different actions and events may lead the system to several successor states.</p>
+<p>The two classes of algorithms that are used to traverse the search space are <strong>uniformed</strong> and <strong>informed search algorithms</strong>.</p>
+<h2 id="uninformed-search"> 2. Uninformed Search Algorithms </h2>
+<p>These algorithms can be understood as uninformed or blind search algorithms because they are just able to detect when a goal has been reached, but they have no idea in which direction the goal(s) are located, nor in how many steps they could be reached.</p>
+<p>Below, I have provided a sketch of a generic search algorithm that visits nodes in the order determined by a chosen strategy and, if a node satisfying the goal condition is found, reports on how the node can be reached. Two key concepts underlying the algorithm:</p>
+<ol>
+<li>While traversing the graph, the nodes are visited one at a time and we keep track of visited nodes to avoid loops in the search.</li>
+<li>The expansion of a node means that each successor node is checked: if it has not been visited, it is visited now and recorded for further (recursive) expansion.</li>
+</ol>
+<p>The preceding ideas reveal that we are preparing ourselves to deal with search spaces where a node can be reached through different paths. Let us then formulate the general search algorithm in more detail.</p>
+<p>Pseudo Code:</p>
+<blockquote>
+<p>Inputs: a directed graph with an initial state S, a goal state G, and an expansion strategy E
+Output: a solution path or failure</p>
+<p>Mark S as visited and expand it.</p>
+<p>While there are nodes n recorded for expansion:</p>
+<blockquote>
+<ol>
+<li>Choose a node n for expansion according to E.</li>
+<li>If n is a goal node, return the path from S to n as the solution path.</li>
+<li>Expand n.</li>
+</ol>
+</blockquote>
+<p>Return failure.</p>
+</blockquote>
+<hr>
+<p>Search algorithms can be compared in terms of their properties.</p>
+<ul>
+<li><strong>Completeness:</strong> An algorithm is <em>complete</em> if it is guaranteed to find a solution to a problem instance when there is one.</li>
+<li><strong>Termination:</strong> An algorithm is <em>terminating</em> if, for all inputs, it will eventually either return a solution or tell that there are none.</li>
+<li><strong>Optimality:</strong> An algorithm is <em>optimal</em> if it is guaranteed that a solution found by the algorithm is best possible (such as having the lowest possible cost).</li>
+<li><strong>Time complexity:</strong> The amount of CPU time required.</li>
+<li><strong>Space complexity:</strong> The amount of memory required.</li>
+</ul>
+<hr>
+<p>Next, I will present two basic strategies for the exploration of search spaces. The heart of the strategy goes back to how nodes recorded for expansion are stored and, in case several nodes are waiting for expansion, which node is chosen for expansion. As regards storage, the relevant data structure is a queue and the type of the queue will fix the strategy as well as the resulting search algorithm:</p>
+<ol>
+<li>A last-in-first-out queue (LIFO) also known as a stack gives rise to <strong>depth-first search</strong> (DFS).</li>
+<li>A first-in-first-out queue (FIFO) yields <strong>breadth-first search</strong> (BFS).</li>
+</ol>
+<p>I will illustrate these algorithms by a simple problem in which a robot is moving in a room.</p>
+<p><strong>Disclaimer: If you have no prior knowledge in graphs or trees, things will get trickier for you now onwards.</strong></p>
+<h3 id="dfs"> 2.1 Depth-First Search (DFS) </h3>
+<p>DFS is an algorithm for traversing or searching a graph or a tree data structure. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as deep as possible in each branch before backtracking. In other words, once we start down a path, we don’t stop until we get to the end or the leaf node. Since DFS is based on a stack of nodes recorded for expansion, it will always expand the node found deepest in the search space first.</p>
+<p>Below, the robot considers the possible actions in the order N, S, E, and W. This is also the order in which the nodes are pushed on the stack and, naturally, this will affect the order in which nodes are taken into consideration when the recursive expansions of nodes take place.</p>
+<p><img src="https://media.giphy.com/media/kboZdgGmPOiKBtLytC/giphy.gif" alt="image alt ><"></p>
+<p>In this case, the net effect of the ordering (N, S, E, W) is actually the reverse: the robot prefers to go west and, if that is not possible, east and, if that is not possible, south and finally, if that is not possible, north. Such a behavior can be recognized from the illustration above.</p>
+<p><img src="https://user-images.githubusercontent.com/21988675/82156210-8fe73780-9897-11ea-884e-e9dfc81bc18e.png" alt="image alt ><"></p>
+<p>Let us analyze the operation of the DFS algorithm and stacks resulting from expansions in more detail. The first step corresponds to the initialization of the algorithm from the source node S at coordinates &lt;2,2&gt; and it will visit the nodes &lt;2,3&gt;(for N), &lt;2,1&gt;(S), &lt;3,2&gt;(E), and &lt;1,2&gt;(W). These nodes will not be visited again. After the first expansion step, the node &lt;1,2&gt; appears on the top. It is popped from the stack and expanded next. As a result, two new nodes &lt;1,3&gt; and &lt;1,1&gt; and are visited next and pushed onto the stack. Thus &lt;1,1&gt; is on the top, but its expansion does not lead to any new nodes. The net effect is that it is simply removed from the stack, which reveals the node &lt;1,3&gt; for the next expansion. The only new node encountered is &lt;1,4&gt; (for N) and pushed onto the stack. Thus, it is the next target for expansion. In this way, the search proceeds until the goal node G at &lt;19,9&gt; is found. The solution path can be found by backtracking which is colored red in the final step of the animation.</p>
+<p>The DFS algorithm is <strong>complete</strong> if loops are avoided. Otherwise, DFS might enter an infinite loop. In our formulation of the algorithm, we keep track of all visited nodes and hence avoid loops altogether. This might become unfeasible for large search spaces. It is easy to see from the figure that the path found by DFS is not the shortest possible and hence DFS is <strong>not optimal</strong> for our problem. The <strong>time</strong> and <strong>space complexities</strong> are bound by the size of the grid, i.e., they are linear in the size of the input graph (10*20 = 200 nodes). However, if the search space has not been completely enumerated, then time and space complexities are O(<em>b</em><sup><em>m</em></sup>) and O(<em>b</em>*<em>m</em>) where <em>b</em> is the maximum branching factor and <em>m</em> is the maximum depth for encountering any node in the search space.</p>
+<h3 id="bfs"> 2.2 Breadth-First Search (BFS) </h3>
+<p>The preceding examples nicely illustrate that DFS may end up investigating irrelevant regions of the search space and, perhaps more seriously, may produce a suboptimal path to the goal node. By changing the type of the queue used to store nodes waiting for expansion, such behavior can be avoided and the quality of paths is improved accordingly. The FIFO used by BFS changes the behavior of our basic search algorithm so that nodes closest to the start node in the search space get expanded first.</p>
+<p>For the sake of comparison, let us consider the actions of the robot in the order N, S, E, and W. The figure below illustrates how the search space is traversed by the BFS algorithm as well as the path found from S to G in red color.</p>
+<p><img src="https://media.giphy.com/media/UWDwGPZCuNkzGarER6/giphy.gif" alt="image alt ><"></p>
+<p>This time, the net effect is that the robot would like to proceed to north and, if that is impossible, to the south and, if that is impossible, to the east and finally, if that is impossible, to west. The subsequent explanation discusses the progression of the search in more detail.</p>
+<p><img src="https://user-images.githubusercontent.com/21988675/82156244-ac836f80-9897-11ea-999e-26981e81d782.png" alt="image alt ><"></p>
+<p>The initialization of the search is identical to DFS, but after that, the search proceeds quite differently. Actually, the queue now contains the nodes within (Manhattan) distance 1 from the start node S and that set of nodes can be understood as the search frontier of BFS that will be expanded by nodes further and further away from S. Thus, the node &lt;2,3&gt; will be expanded next and this is how nodes &lt;2,4&gt;, &lt;3,3&gt;, and &lt;1,3&gt; are added to (the end of) the queue. When the next node, i.e., &lt;2,1&gt; , is expanded, two further nodes enter the queue:&lt;3,1&gt; and &lt;1,1&gt;. Similarly, the expansion of &lt;3,2&gt; enters &lt;4,2&gt; to the queue. No new neighbors are encountered when &lt;1,2&gt; is expanded. At this stage, the queue contains all nodes within (Manhattan) distance 2 of from S. In this way, the search proceeds until nodes with distance 30 get handled and the goal node G is found.</p>
+<p>Like DFS, the BFS algorithm is also <strong>complete</strong>. It is also <strong>optimal</strong>. As regards the <strong>time complexity</strong> of BFS, it is analogous to that of BFS, i.e., it is O(<em>b</em><sup><em>d</em></sup>) where <em>b</em> is the branching factor and <em>d</em> gives the depth of the (shallowest) solution in the search space. The <strong>space complexity</strong> is also O(<em>b</em><sup><em>d</em></sup>) which is caused by the frontiers maintained by BFS. Their size may become exponential in the worst case because <em>b</em><sup><em>d</em></sup> is exactly the number of leaves in a complete search tree of depth <em>d</em> and branching factor <em>b</em>.</p>
+<h3 id="summing-up">Summing Up:</h3>
+<p>We saw how we can use the basic uninformed state search algorithms to find a path from an initial state to a goal state. In the next blog, I will talk about how we can make these basic search algorithms a little more intelligent by giving them some form of &ldquo;vision&rdquo; with heuristic functions. I will talk about the <strong>Greedy Best-First Search</strong> and <strong>A*</strong> algorithm which is one of the most successful search algorithms to find the shortest path between nodes in a graph.</p>
+<p>See you in the next blog!</p>
+<p>Head to 
+<a href="../ai-2.2/">Part 2.2</a>) for Informed Search Methods and 
+<a href="../ai-1/">Part 1</a> for basic introduction to A.I.</p>
+<p><strong>References:</strong></p>
+<ul>
+<li>S. Russel and P. Norvig: Artificial Intelligence: A Modern Approach, Chapters 3 and 4, 3rd Edition, 2010.</li>
+</ul>
+</div>
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/ai/">AI</a>
+  
+  <a class="badge badge-light" href="/tag/dfs/">DFS</a>
+  
+  <a class="badge badge-light" href="/tag/bfs/">BFS</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        <img class="avatar mr-3 avatar-circle" src="https://s.gravatar.com/avatar/7c5b51d7c6c89578e6b9b879aa43a434?s=200')" alt="Utkarsh Jain">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://the-utkarshjain.github.io/">Utkarsh Jain</a></h5>
+        <h6 class="card-subtitle">Undergraduate Student</h6>
+        <p class="card-text">Exploring different feilds of Computer Science. Interests include AI and Parallel Computing.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:utkarsh.j.99@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/iamutkarshjain/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/the-utkarshjain/" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/cv.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/ai-2.2/">Artificial Intelligence - Part 2.2</a></li>
+      
+      <li><a href="/post/ai-1/">Artificial Intelligence - Part 1</a></li>
+      
+      <li><a href="/project/artificial-intelligence/artificial-intelligence-and-decision-making/">Artificial Intelligence and Decision-Making</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.66c553246b0f279a03be6e5597f72b52.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
