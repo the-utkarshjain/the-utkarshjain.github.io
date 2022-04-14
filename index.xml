@@ -5,12 +5,234 @@
     <link>https://the-utkarshjain.github.io/</link>
       <atom:link href="https://the-utkarshjain.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Utkarsh Jain</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://the-utkarshjain.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Utkarsh Jain</title>
       <link>https://the-utkarshjain.github.io/</link>
     </image>
+    
+    <item>
+      <title>I came, I saw, I conquered - Understanding Graduate Applications.</title>
+      <link>https://the-utkarshjain.github.io/post/graduate-applications/</link>
+      <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://the-utkarshjain.github.io/post/graduate-applications/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt; 
+&lt;p&gt;
+&lt;a href=&#34;https://theutkarshjain.medium.com/i-came-i-saw-i-conquered-understanding-graduate-applications-1f009b52455&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link for the Medium article.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hi, I am Utkarsh Jain. I applied for Master’s programs in Computer Science (fall ‘22 intake) to USA-based universities. Speaking from personal experience, I know that applying to universities abroad can be confusing and tiresome. That is precisely why I am writing this article, in the hope of unentangling this long and convoluted process for you. I will begin by briefly introducing myself, and then immediately get into the application procedure. Make sure you go through all the resources I have shared in this article to get an even better understanding.&lt;/p&gt;
+&lt;h2 id=&#34;1-about-me&#34;&gt;1. About Me&lt;/h2&gt;
+&lt;p&gt;I graduated with a B.Tech in Computer Science and Engineering from the Indian Institute of Technology Mandi in 2021. I applied to, and was admitted to, University of California San Diego, University of Illinois Urbana-Champaign, New York University Courant, Northeastern University, and Stony Brook University. The overall process of applying for the universities took me around 5 months, which included preparing and appearing for the standardized tests, shortlisting universities, writing a statement of purpose, arranging letters of recommendation, and submitting the applications.&lt;/p&gt;
+&lt;h2 id=&#34;2-shortlisting-universities&#34;&gt;2. Shortlisting universities&lt;/h2&gt;
+&lt;p&gt;Alright, let’s begin! So the very first step of applying to graduate schools in the USA, or anywhere in the world, is to shortlist the universities you want to apply to. Shortlisting can take anywhere from 2 to 4 weeks depending on how many universities and factors you take into account. For me, some of the criteria I used while deciding on the universities were:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Quality of coursework.&lt;/strong&gt; Having spent already a year abroad as a semester exchange student, I enrolled in a lot of master’s-level courses. Hence, it was necessary for me to check if the university offered a more advanced and diverse set of courses. You would be surprised to know that a lot of renowned universities failed this test.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Research quality and opportunities.&lt;/strong&gt; I plan to end up on the research side of the industry after I graduate. Therefore, it was important for me that the university I apply to offered me the best possible research atmosphere.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost of attendance.&lt;/strong&gt; USA-based universities are COSTLY. The total cost of attendance can lie anywhere between $70,000 and $1,30,000. So if you are coming from a middle-class family like me, this would a crucial factor for you too. Nonetheless, remember that it is easy to get funding opportunities like RA-ship and TA-ship in some universities. So keep that factor in mind too.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Overall ranking.&lt;/strong&gt; Truth be told, ranking doesn’t matter much. Most of the online rankings are too subjective to be followed blindly. Instead, I explored each university, checked their coursework and research, and then made a decision on whether I liked the program or not. You would be astonished to know that some “low ranking” universities offered me the perfect program of my liking.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Word of advice, jot down all the strong points that each university of your choice offers, because they will help you craft a strong and customized statement of purpose.&lt;/p&gt;
+&lt;p&gt;It is a good practice to apply to 10 universities if you are going for an engineering program. Out of these 10 universities, 3 are supposed to be ambitious, 5 moderate, and 2 safe. To place a University in one of these three classes, have a look at 10 LinkedIn profiles of students (from your own country) currently enrolled in the program of your interest. This will give you a general idea of the kinds of profiles that usually get an admit from the said university, and help you decide if your profile is competitive enough or not.&lt;/p&gt;
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://csrankings.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;csrankings.org&lt;/a&gt; : CSRankings, instead of subjectively ranking universities based on a ton of parameters, objectively ranks universities solely on their research output. This is something you would find useful if you plan to go for research in the future.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-standardized-tests&#34;&gt;3. Standardized Tests&lt;/h2&gt;
+&lt;p&gt;As a part of the application process, you are supposed to submit your scores in the Graduate Record Examination (GRE) and Test of English as a Foreign Language (TOEFL). Although some of the universities are gradually making GRE optional, most of them still ask for TOEFL scores (or any other approved language test such as IELTS, or Duolingo). Additionally, if you finished your Bachelor’s degree from an English-speaking institute, you can practically ask the university for a TOEFL waiver. But I advise against it for a couple of reasons, especially if you are an international student, which are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Once you get into a university, you will be required to show your proficiency in English in some way or the other to secure a RA/TA-ship. They will either ask you for your TOEFL/IELTS scores, or you will be required to sit through an introductory English course and a comprehensive examination to become eligible. So why not just give TOEFL and make your life a bit easier?&lt;/li&gt;
+&lt;li&gt;It is true that you can ask for a waiver, but sometimes these waivers take time to process. This may delay your application.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now that we have cleared this, let us move on to the preparation for these exams. Luckily enough, I have already written a comprehensive article on 
+&lt;a href=&#34;https://theutkarshjain.medium.com/scoring-331-340-in-gre-with-60-days-of-preparation-v-161-q-170-16b48e985034&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;how to score 331/340 in GRE in just 60 days&lt;/a&gt;. Once you are done with GRE, immediately register for TOEFL and be done with it while you are still in the momentum, or else you will have to prepare from the base up to reach that level of preparedness. It took me over 2-2.5 months to complete this process, and I suggest you finish these tests as soon as possible (preferably 7-8 months before you start your applications). Starting early will not only help you get them off your mind, but it will also give you a chance to retake the tests if you don’t score well. Here are some points to remember:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Although GRE is optional in some cases, a high score always helps.&lt;/li&gt;
+&lt;li&gt;If you are applying for an engineering degree, make sure you score full in the Mathematics section of the GRE. Your scores in English won’t matter much, but still try to score as high as possible. AWA is usually ignored, but still aim for more than 3.0.&lt;/li&gt;
+&lt;li&gt;For TOEFL, try to score full in the speaking section. Why? Because universities look for high speaking scores (sometimes ≥ 28) to consider you for TA-ship positions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Also, it is important that you shortlist your universities before appearing for both of these exams. Why? Because you get to send your scores for free to 4 universities (per exam) of your choice when you register for these exams.&lt;/p&gt;
+&lt;p&gt;My scores were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GRE: 170 Quant, 161 Verbal, 4.0 AWA (331/340)&lt;/li&gt;
+&lt;li&gt;TOEFL: 30 Reading, 29 Listening, 30 Speaking, 28 Writing (117/120)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;resources-1&#34;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;For TOEFL: 
+&lt;a href=&#34;https://www.toeflresources.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.toeflresources.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-writing-statement-of-purpose-sop&#34;&gt;4. Writing Statement of Purpose (SOP)&lt;/h2&gt;
+&lt;p&gt;Friends, Romans, countrymen, lend me your ears for we have now arrived at the most crucial step of applying for graduate schools - writing the Statement of Purpose! I understand that a lot of people on the internet say that it takes 3-4 months to write the SOP, but it took me only 4 weeks to finish my final draft. And it was good enough to get me into some of the top programs in the world. Here are some points to remember when writing your SOP:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use LaTex to make your document look more professional and clean.&lt;/li&gt;
+&lt;li&gt;Start early! Although I was lucky to finish my SOP in 4 weeks, you may need more or less time depending on how easily thoughts come to you, or how long it takes you to become confident in your statement. It is no secret that writing an SOP is tough. You need to be creative and summarize your achievements and future plans in a 2-page document.&lt;/li&gt;
+&lt;li&gt;An SOP is not supposed to be a reiteration of your resume. Take this opportunity to show the admissions committee who you really are as a person.&lt;/li&gt;
+&lt;li&gt;People often ask you to add a touch of human emotion and show some struggle, or fake it, to appeal to the sympathetic side of the reviewer. I did not, because I am not really comfortable with that style of writing, and I didn’t want to end up with a fake document in my hands. Instead, I wrote about my past experiences, my personal and professional goals, how their university can help me achieve these goals, and how I plan to give back to their community. If you don’t feel confident about your SOP, how do you expect them to feel confident about your candidacy?&lt;/li&gt;
+&lt;li&gt;Having research experience and published papers bolsters your overall application and also gives you strong points to talk about in your SOP. However, they do not guarantee admission. Speaking from personal experience, I have seen strong profiles with multiple publications getting rejected from almost all the universities. It happened with a friend of mine who had authored a couple of research papers. When the results were out, he was rejected from some of the universities I had received acceptance from. So please do not be disappointed if you don’t have research papers. There is a myriad of other things you can talk about and come across as a strong candidate. Talk about your projects, and internships, what challenges you faced, how you solved them, what you learned, and how they made you more competent. You can also talk about your research interests (interests and experience are two separate things), and how you plan to engage with professors working on the same thing. You can also include some big ideas you may want to pursue once you get accepted. But, whatever happens, REMEMBER that having research papers is not everything! I didn’t have any, but still made it to some of the top universities.&lt;/li&gt;
+&lt;li&gt;Follow the formatting guidelines specified by the university, if any. Often the guidelines are mentioned in the FAQ section and not on the main page. This is the format I used where no guidelines were mentioned: 1-inch margin on all sides, Times New Roman (10-12 font size), 1.5 line spacing, maximum 2 pages.&lt;/li&gt;
+&lt;li&gt;Get your SOP reviewed by at least 5 people from different fields. Best would be to request your professors to review your SOP and give you feedback. You can also request your friends who are already in graduate school to review it for you. And in the end, make sure to get it reviewed by an English professor who can comment on the overall cohesiveness and coherence of your essay. It is important that your SOP sounds as smooth and focused as possible.&lt;/li&gt;
+&lt;li&gt;Spellcheck your document! Although minor mistakes are often overlooked, a lot of them would irritate the reviewer and undermine your candidacy.&lt;/li&gt;
+&lt;li&gt;Whatever you do, please do not upload your SOP on Reddit for strangers to review. I have seen this happen a lot, and it only puts you at the risk of getting caught for plagiarism. Try to keep your SOP within a limit of 5-6 trustworthy people.&lt;/li&gt;
+&lt;li&gt;Write your SOP yourself and do not pay a third party to write it for you. The admissions committee can sniff chicanery from miles away.&lt;/li&gt;
+&lt;li&gt;Do not plagiarise because you will get caught and blacklisted.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;how-i-structured-my-sop&#34;&gt;How I Structured my SOP&lt;/h3&gt;
+&lt;p&gt;There were 5 main parts in my SOP - introduction, my relevant past and ongoing experience, my research interest, why that particular college, and conclusion. So in the first paragraph I briefly explained how I became interested in Artificial Intelligence (AI), and it was pretty much boilerplate. In the second and third paragraphs I discussed my academic and industrial experience related to AI, and in the fourth paragraph I described the research assistantship I was doing at the moment and how much I have achieved in the problem statement. The next paragraph was mostly about my research interests at the time, which pretty much aligned with the aforementioned research assistantship. The sixth paragraph was all about why I chose that college, wherein I talked about the coursework, professors, and what I liked about that city in general (this is important because it shows you have really thought about your decision of applying to that university). And in the end, a beautiful optimistic conclusion!&lt;/p&gt;
+&lt;h3 id=&#34;resources-2&#34;&gt;Resources:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Must read: 
+&lt;a href=&#34;https://www.cs.cmu.edu/~pavlo/blog/2015/10/how-to-write-a-bad-statement-for-a-computer-science-phd-admissions-application.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to Write a Bad Statement for a Computer Science Ph.D. Admissions Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Must read: 
+&lt;a href=&#34;https://da-data.blogspot.com/2015/03/reflecting-on-cs-graduate-admissions.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reflecting on CS Graduate Admissions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Must read: 
+&lt;a href=&#34;https://writeivy.com/structure-is-magic-a-guide-to-the-graduate-sop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Structure is magic. A guide to Graduate SOP.&lt;/a&gt; (check the other articles too)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;5-submitting-applications&#34;&gt;5. Submitting applications&lt;/h2&gt;
+&lt;p&gt;The application period starts as early as mid-September and usually closes around December for competitive schools, and February-April for less competitive ones. Although there is no proof, it is said that submitting your applications as soon as possible gives you an edge. Make sure you turn in all your applications by the end of October. Not only might it give you additional weightage, but also save you from last-minute hassle and anxiety.&lt;/p&gt;
+&lt;p&gt;The three important parts of the application are the SOP, the letters of recommendation, and academic transcripts. Other documents which are usually required are resume/curriculum vitae, scores in standardized tests (sent directly from ETS), and personal history (sometimes required, but not usually). All of them have variable importance based on the type of university you apply to, but in my experience, I have learned this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A strong SOP helps a lot. A weak one could hurt you.&lt;/li&gt;
+&lt;li&gt;Letters of recommendation are a very important part of the application. A strong and customized letter of recommendation will bolster your candidature, a weak and general one will get you ignored. A “Did Well In Classroom” type recommendation letter comes under the latter.&lt;/li&gt;
+&lt;li&gt;Strong academic grades won’t hurt you, weak grades will not kill you.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;6-quit-social-media&#34;&gt;6. Quit Social Media&lt;/h2&gt;
+&lt;p&gt;Once you are done with your applications, sit back and relax. Stop following subreddits and other websites where people post their admits (such as gradcafe) for the sake of your sanity :) Seeing others get accepted while you get rejected or waitlisted can affect your mental health to a point where you will begin doubting yourself. All that does is bring you anxiety attacks for no good reason. I feel lucky that I quit social media as soon as I finished my applications, and did not suffer like others on the internet did. Rather, I used that time to develop new hobbies and enhance my skill set. Some more things to remember:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Do not be disappointed if your first result is a reject. Stay calm and keep yourself busy with something.&lt;/li&gt;
+&lt;li&gt;You may feel a sudden craving to ask others for their results and stuff. Don’t. Mind your own business.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ending-notes&#34;&gt;Ending Notes&lt;/h2&gt;
+&lt;p&gt;To quote a professor of mine: “Play with these binary machines, but remember, life is fuzzy”. Life does not always end up how we plan it to be. I have seen people with competitive profiles getting rejected by strong schools, and people with average profiles get into competitive ones. And both of them end up achieving great things in life nonetheless. Remember, going to a university is not the end, but only a means to an end. Just make sure you keep fighting till the end and produce an application that highlights your competence, your plans in life, and how the university fits among them.&lt;/p&gt;
+&lt;h2 id=&#34;additional-resources&#34;&gt;Additional Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Must read: “
+&lt;a href=&#34;https://www.amazon.in/Graduate-Admissions-Essays-Fourth-School/dp/1607743213&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graduate Admissions Essays&lt;/a&gt;” by Donald Asher&lt;/li&gt;
+&lt;li&gt;Must read: 
+&lt;a href=&#34;https://precog.iiitd.edu.in/graduate-school-faqs.html#answer_1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAQs - Preparing, Applying and Deciding on Graduate Schools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://matt.might.net/articles/how-to-recommendation-letter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to get a great letter of recommendation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://cs.brown.edu/~sk/Memos/Grad-School-Recos/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Advice to Graduate School Recommendation Letter Writers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HOWTO: Get into grad school for science, engineering, math and computer science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://myadmissionsposts.quora.com/How-to-improve-your-competitiveness-to-be-admitted-into-a-top-university-that-everyone-under-the-sun-wants-in&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to improve your competitiveness to be admitted into a top university that everyone under the sun wants in&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://martiansideofthemoon.github.io/2018/05/29/grad-resources.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Helpful Grad School Resources&lt;/a&gt; by Kalpesh Krishna (PhD)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://docs.google.com/document/d/127FJmjTRBNTgMBt3ScbKvEz1AsDR9zwmn_b97Zk12uM/edit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MS Application Thoughts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Scoring 331/340 in GRE with 60 days of preparation.</title>
+      <link>https://the-utkarshjain.github.io/post/gre/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://the-utkarshjain.github.io/post/gre/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt; 
+&lt;p&gt;
+&lt;a href=&#34;https://theutkarshjain.medium.com/scoring-331-340-in-gre-with-60-days-of-preparation-v-161-q-170-16b48e985034&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link for the Medium article.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Before I start with the real stuff, let me quickly enumerate the different resources you will require during your preparation.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://gre.magoosh.com/?_ga=2.37517920.1936828468.1614004864-1320610643.1614004864&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Magoosh’s Paid Account&lt;/a&gt; (Extremely Important)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.amazon.in/Vocabulary-Builder-Workbook-Activities-Must-know/dp/193975481X&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chris Lele’s Vocabulary Builder Workbook&lt;/a&gt; &lt;/br&gt; Chris Lele is an instructor at Magoosh who has been preparing students for GRE for a long time now. His book, Vocabulary Builder Workbook, is a panacea for all your vocabulary inadequacies.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://gre.magoosh.com/gre-vocabulary-ebook?utm_source=greblog&amp;amp;utm_medium=blog&amp;amp;utm_campaign=vocabularyebook&amp;amp;utm_term=inline&amp;amp;_ga=2.263067980.1936828468.1614004864-1320610643.1614004864&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Magoosh’s Complete Guide to GRE Vocabulary&lt;/a&gt; &lt;/br&gt; This is essentially a subset of Chris Lele’s book (above). However, it contains some extra high-frequency GRE words. It wouldn’t take more than 3 or 4 days to complete this book if you have already finished Chris Lele’s book.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.amazon.in/Official-Verbal-Reasoning-Practice-Questions/dp/9339217969/ref=pd_bxgy_14_3?_encoding=UTF8&amp;amp;psc=1&amp;amp;refRID=GVYV68EGC0JMZK7TTBWJ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GRE Verbal Reasoning Practice Questions&lt;/a&gt; &lt;/br&gt; This is the official GRE Verbal Reasoning Practice book by ETS that aims to cover the entire verbal reasoning portion of GREs. However, it doesn’t have enough questions to practice. We will pick up this book at the end — maybe a couple of weeks before the exam.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.amazon.in/Official-Guide-GRE-General-Test/dp/9352607376&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Official Guide to the GRE General Test&lt;/a&gt; &lt;/br&gt; Same as point 4.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.ets.org/gre/revised_general/prepare/powerprep/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GRE Powerprep Practice Test by ETS&lt;/a&gt; &lt;/br&gt; These free computer-based practice tests (2 to be exact) are offered by ETS when you signup on their website. These tests mirror the actual GRE because they are both made by ETS.&lt;/li&gt;
+&lt;li&gt;Magoosh’s free GRE Flashcard, and Vocabulary Builder mobile appThis app helps you review words while you are commuting or answering nature’s call. The vocabulary builder app even allows having vocab battles with random opponents.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;By now you must be feeling pretty intimidated seeing all the different books and online resources. But don’t be scared. I will walk you through every step, explaining the relative importance of all the aforementioned resources along the way. And before you know it, you will have a good idea of how to approach the test.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;An important note&lt;/strong&gt;: This blog focuses mainly on improving your score in the verbal section. I &lt;strong&gt;will not&lt;/strong&gt; discuss the quant section because I find Maths simple and easy, making me not-the-best advisor. If you want to improve your quant section, kindly refer to someone else’s blog. Thanks.&lt;/p&gt;
+&lt;p&gt;Before I started my GRE prep, my vocabulary was abysmal and I struggled even with the basic words like equivocal, intriguing, wary, etc. If you think your vocab is wanting, like mine was, you are in the right place :)&lt;/p&gt;
+&lt;p&gt;Additionally, you will need to spend 5–6 hours daily for your preparation if you want to get a good score. I exhort you to get rid of your social media accounts because they are enervating and will eat away your precious time.&lt;/p&gt;
+&lt;p&gt;Let’s begin!&lt;/p&gt;
+&lt;/br&gt;
+&lt;h2 id=&#34;day-17&#34;&gt;Day 1–7&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Start with Chris Lele’s Vocabulary Workbook at a rate of 3–4 chapters/day (around 30 words/day) and make note of &lt;strong&gt;all&lt;/strong&gt; the words in a notebook. In the beginning, you will find it challenging to memorize all the words and it will feel like you are not making any progress. But don’t quit because it takes time to build your “memory muscles”. Slowly, when you start feeling comfortable, push your limits and increase your rate to 6–7 chapters/day (around 50 words/day). Right now you are building momentum and gaining word power to face the easy questions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;day-817&#34;&gt;Day 8–17&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Continue with Chris Lele’s Vocabulary Workbook, now at the rate of 7–8 chapters/day, meanwhile revising previous words.&lt;/li&gt;
+&lt;li&gt;Visit your Magoosh account and start with the &lt;strong&gt;easy text completion&lt;/strong&gt; problems in the verbal section. Move one question type at a time because it will help you understand the pattern and train your brain’s network. After finishing all the easy text completions, move to &lt;strong&gt;easy sentence equivalence&lt;/strong&gt; and then, in the end, to &lt;strong&gt;easy reading comprehension&lt;/strong&gt;. You might find these questions rife with somewhat-heavy words, but keep moving because your vocab will catch up eventually.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Move at a rate that you complete all the easy questions in no more than 10 days. Remember, GRE will ask medium-hard questions. So wasting too much time on easy problems would not fetch you anything. Nonetheless, it is important to complete them else you will not build up the prerequisites to tackle the medium problems.&lt;/p&gt;
+&lt;p&gt;At the end of 17 days, I expect you would have finished 90–100 chapters of the vocabulary book i.e learned 720–800 new words, and be exuding with enthusiasm and confidence for you have gained so much word power. If you feel like you are falling behind, spend more hours to compensate.&lt;/p&gt;
+&lt;h2 id=&#34;day-1724&#34;&gt;Day 17–24&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Continue with Chris Lele’s Vocabulary Workbook, now at the rate of 10 chapters/day, meanwhile revising previous words.&lt;/li&gt;
+&lt;li&gt;Pick up the &lt;strong&gt;medium-level&lt;/strong&gt; questions &lt;strong&gt;(of all types)&lt;/strong&gt; on Magoosh. Now that you have enhanced your vocab and have a good experience with easy questions, tackling medium questions would feel a bit easier. Don’t worry if it doesn’t initially. Give it time and it too shall pass. Solve at least 20 questions of each type every day (a total of 60 verbal questions per day).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;At this rate, you should be over with the medium-level questions in no more than 8 days.&lt;/p&gt;
+&lt;p&gt;During this period you might notice you aren’t improving even though you are putting in a lot of effort. You might also want to punch your laptop screen. But please don’t, especially if you own a Mac (the repair charges will leave you impecunious). The following excerpt is borrowed from &lt;strong&gt;Atomic Habits&lt;/strong&gt; by James Clear, and it explains this apparent discrepancy succinctly.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We often expect progress to be linear. At the very least, we hope it will come quickly. In reality, the results of our efforts are often delayed. It is not until months or years later that we realize the true value of the previous work we have done. This can result in a ‘valley of disappointment’ where people feel discouraged after putting in weeks or months of hard work without experiencing any results. However, this work was not wasted. It was simply being stored. It is not until much later that the full value of previous efforts is revealed.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;More about the Valley of Disappointment on 
+&lt;a href=&#34;https://gijs.to/discipline/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gijs.to/discipline/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;day-2530&#34;&gt;Day 25–30&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Continue with Chris Lele’s Vocabulary Workbook at the rate of 10 chapters/day, meanwhile revising previous words.&lt;/li&gt;
+&lt;li&gt;Having finished easy and medium-level questions, it is time to revisit all the questions you got wrong. I can’t stress enough how important it is to resolve the wrong questions. While you are at it, make a note of what you did wrong and try to analyze the mistakes you are repeating. For eg., you might notice you are misconstruing a word for some other word, or you are struggling with all the commas and hyphens in the sentences. Take necessary steps to mitigate those shortcomings.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Use this period to refine your knowledge and fill any gaps. This would prepare you for the harder questions.&lt;/p&gt;
+&lt;p&gt;At the end of 30 days, I expect you to have finished Chris Lele’s Vocabulary Workbook. Don’t get upset if you do not remember all the 1400 words. Just keep revising the words, especially the ones which are troubling you the most, every day and you will be okay.&lt;/p&gt;
+&lt;h2 id=&#34;day-3140&#34;&gt;Day 31–40&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Revise all the previous words. The more you revise, the better you will get.&lt;/li&gt;
+&lt;li&gt;Start with Magoosh’s free vocab ebook and start skimming through the chapters. You will notice you already know more than 90% of the words because you have read them in Chris Lele’s book. Take note of all the new words you encounter and memorize them. Ideally, it would take 3–4 days to finish this book.&lt;/li&gt;
+&lt;li&gt;Pick up the Magoosh’s Flashcard app. Again, you will know most of the words. Make note of all the new words.&lt;/li&gt;
+&lt;li&gt;Pick up the &lt;strong&gt;hard-level&lt;/strong&gt; verbal questions on Magoosh. Let me warn you right now. Magoosh’s hard questions are &lt;strong&gt;slightly more difficult&lt;/strong&gt; than the actual GRE and you will struggle to solve them. Regardless, keep on fighting and slowly you will gain proficiency. Move at a pace to finish this within 10 days.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You have now entered the major league and it is a good idea to slow down and start noticing the subtleties of the questions at hand. Solve new questions every day and revisit those you got wrong. At this point, you will gain the most from resolving all the wrong questions. Make a note of your mistakes and take appropriate steps to reduce them.&lt;/p&gt;
+&lt;p&gt;At the end of 40 days, you would have completed easy, medium, and hard level questions and be finished with Chris Lele’s Vocabulary Workbook, Magoosh’s vocab ebook, and Magoosh’s Flashcard app. Pause for a moment and pat your back because now you are prepared enough to score a 320, easily. Now continue grinding.&lt;/p&gt;
+&lt;h2 id=&#34;day-4149&#34;&gt;Day 41–49&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Give the first powerprep GRE test to gauge your preparation. Scoring below 320 would mean you need to put in more effort. Scoring 320–329 means you are ready and can easily move into the 330+ league with some minor refinements. Scoring 330+ means you are well prepared to face the GRE.Analyze your mistakes and make necessary changes in your study pattern to reduce them. For eg., you might realize you are forgetting words, or you are making silly mistakes, etc. Take necessary actions to improve upon these mistakes.&lt;/li&gt;
+&lt;li&gt;Keep revising all the words at the rate of 500–600 words/day. This would take approximately 60–70 minutes. The more you revise, the better you will get.&lt;/li&gt;
+&lt;li&gt;Keep revisiting all the questions you got wrong. Spend an hour or so doing this.&lt;/li&gt;
+&lt;li&gt;Now that you are confident enough with the verbal section, start focussing on the AWA section. Pick whichever section you want (Argument or Issue) and watch the related videos on your Magoosh account. Practice two tasks daily and after you are done, read the sample provided by Magoosh and re-write your task with improvements. This will take around 3 hours every day. Do this for both the argument and issue tasks. Magoosh has a total of 17–18 different tasks, so it will take 8–9 days to finish them all. &lt;strong&gt;Note:&lt;/strong&gt; It is important you analyze the marking scheme and understand why some essays receive fewer marks and others more. Read more about this on 
+&lt;a href=&#34;https://www.ets.org/gre/revised_general/prepare/analytical_writing/score_level_descriptions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this link&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Pick up the Official GRE Verbal Reasoning Practice book and start solving it. You would soon realize 80% of this book is just filled with solutions and there aren’t many questions. You will find this book easy and should be able to finish it in a couple of days.&lt;/li&gt;
+&lt;li&gt;Pick up the Official Guide to the GRE General test and start solving it. This book, for all its thickness, is filled with solutions and contains a modicum of questions. Finish it within 3–4 days.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;day-5059&#34;&gt;Day 50–59&lt;/h2&gt;
+&lt;p&gt;By this time, you would have completed Magoosh’s question bank, except for the &lt;strong&gt;very-hard level&lt;/strong&gt; question. Yes, Magoosh has &lt;strong&gt;very-hard level&lt;/strong&gt; questions too and I strongly suggest you stay clear of them because the actual GRE doesn’t touch this level (even Magoosh acknowledges this fact).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Keep revising the words, now at the rate of 800 words/day. This would take approximately 80–90 minutes. Make sure you revisit every word in 3 days.&lt;/li&gt;
+&lt;li&gt;Now it is time to start with Magoosh’s practice tests. Give &lt;strong&gt;one&lt;/strong&gt; practice test, &lt;strong&gt;end to end&lt;/strong&gt;, each day, and analyze your mistakes. Don’t grow complacent if you score 330+, because Magoosh uses the same question bank it uses for practicing. You would see a lot of questions repeating, and that is fine. Giving these tests will serve two purposes: 1) Taking the exams in a timed fashion would prepare you for the actual exam; 2) Towards the end, you must always stay in touch with all the subjects and different question types as it helps you maintain your momentum.&lt;/li&gt;
+&lt;li&gt;Give the second powerprep GRE practice test and analyze your mistakes. The scores you get in this exam will give you the best prediction of your actual scores.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; During this period, eschew picking up any new book. Also, avoid doing too many questions. Just give one exam daily and spend the rest of the time analyzing your mistakes and refining your knowledge.&lt;/p&gt;
+&lt;h2 id=&#34;day-60&#34;&gt;Day 60&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Appear for the exam! :) Best of luck. You got this.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/br&gt;
+&lt;p&gt;Some additional points which might help you:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An extensive vocabulary will always help you. Once you finish the two vocab books, feel free to pick up other vocab resources. A relevant 
+&lt;a href=&#34;https://magoosh.com/gre/best-and-worst-gre-word-lists/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; to follow.&lt;/li&gt;
+&lt;li&gt;Don’t forget to practice AWA tasks, and make sure you employ your recently acquired word power. You won’t be able to perform well in the AWA section if you don’t practice enough.&lt;/li&gt;
+&lt;li&gt;You would see the name 
+&lt;a href=&#34;http://www.amazon.in/Practice-Problems-Manhattan-Strategy-Guides/dp/1941234518/ref=sr_1_7?ie=UTF8&amp;amp;keywords=barrons&amp;#43;gre&amp;amp;qid=1501599656&amp;amp;s=books&amp;amp;sr=1-7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;5 Lb. Book of GRE Practice Problems (Manhattan Prep GRE Strategy Guides)&lt;/a&gt; a lot of times. People highly recommend this book but I will not. Once you finish Magoosh’s verbal questions, you would find this book easy as pie and there is no point wasting time on it. Nonetheless, if you find yourself with extra time at your disposal, you can pick it up if you like.&lt;/li&gt;
+&lt;li&gt;One good way of enhancing your vocab, as many people advise, is to read a lot of books. There is nothing wrong with this approach, but it will take a lot of time to see some palatable improvement. I’m not a big fan of reading books, so I circumvented it. Instead of reading books, I read a lot of AWA tasks written by different people. This helped me improve my writing skills and enhance my vocab at the same time.
+&lt;strong&gt;Resource:&lt;/strong&gt; You can read sample AWA tasks at 
+&lt;a href=&#34;https://medium.com/pencil-and-eraser?source=---------13----------------------------&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this link&lt;/a&gt;. He writes eloquently and his essays are rife with high-frequency GRE words.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That was my style of preparing for the GRE. This strategy worked perfectly for me, however, I do not guarantee it will work for you too. You might want to make a few alterations here and a few there to make this comprehensive plan work for you. I used to spend 6–7 hours, some days more than that, everyday preparing for GRE and I expect you to go all-in too. &lt;strong&gt;Go hard or go home.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thanks for sticking till the end :)&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
     
     <item>
       <title>Artificial Intelligence - Part 2.2</title>
