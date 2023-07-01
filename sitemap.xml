@@ -53,22 +53,25 @@
     <loc>https://the-utkarshjain.github.io/post/ai-1/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://the-utkarshjain.github.io/project/artificial-intelligence/artificial-intelligence-and-decision-making/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://the-utkarshjain.github.io/project/parallel-computing/concurrent-programming-and-frameworks/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://the-utkarshjain.github.io/tag/cuda/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://the-utkarshjain.github.io/project/machine-learning/decision-making-and-machine-learning/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://the-utkarshjain.github.io/tag/deep-learning/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://the-utkarshjain.github.io/project/artificial-intelligence/deep-learning/</loc>
+    <loc>https://the-utkarshjain.github.io/project/machine-learning/deep-learning/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://the-utkarshjain.github.io/tag/development/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://the-utkarshjain.github.io/tag/ml/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://the-utkarshjain.github.io/tag/node.js/</loc>
@@ -89,9 +92,6 @@
     <loc>https://the-utkarshjain.github.io/project/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://the-utkarshjain.github.io/tag/python/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://the-utkarshjain.github.io/tag/scala/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -102,6 +102,9 @@
     <lastmod>2019-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://the-utkarshjain.github.io/tag/php/</loc>
+    <lastmod>2019-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://the-utkarshjain.github.io/tag/python/</loc>
     <lastmod>2019-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://the-utkarshjain.github.io/categories/</loc>
